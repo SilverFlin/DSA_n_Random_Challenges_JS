@@ -1,6 +1,7 @@
 /**
- * A Isogram is a word that has no repeaetd letters
- * */
+ * @param  str  The word to check
+ * @returns  if the word is a Isogram
+ */
 
 function isIsogram(str) {
 	let charCount = {}; // Is easy to track the letters with a object
@@ -16,5 +17,5 @@ function isIsogram(str) {
 	return true;
 }
 
-isIsogram('WREatHs'); // True
-isIsogram('isIsogram'); // False (At the 3rd char it will return the false)
+console.log(isIsogram('WREatHs')); // True
+console.log(isIsogram('isIsogram')); // False (At the 3rd char it will return the false)

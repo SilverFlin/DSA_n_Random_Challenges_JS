@@ -1,6 +1,8 @@
 /**
- * Return the amount of divisors that a number has
- *  */
+ * 
+ * @param n The number to check
+ * @returns The amount of prime factors
+ */
 
 function primeFactorsCount(n) {
 	if (n === 1) return 1; // Without this the function will return 0 if 1 is the parameter
