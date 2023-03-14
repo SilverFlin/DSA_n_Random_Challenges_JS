@@ -1,3 +1,3 @@
-# JS_Algorithms_Explained
-Examples of Algorithms written in Javascript
+# DSA & Random Challenges JS
+Data structures, Algorithms, and random online challenges written in Javascript.
 
